@@ -34,14 +34,14 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1024219781185937418/1222517151777165413/baswvaw.gif?ex=661680d2&is=66040bd2&hm=14aa0de5837f12c77642961922ea5dc63d37c406a445abf23ed3f520327cfee7&']; //รูปใหญ่
+    const change = ['https://cdn.discordapp.com/attachments/1024219781185937418/1224696532079738990/gsvs6d.gif?ex=661e6e87&is=660bf987&hm=6f50cd9bc75165fa54291382d71a8ad46c72e2dcf3be6922b13aa1a4de48e91f&']; //รูปใหญ่
      //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
     const change2 = [' ']; // ชื่อสลับ
     const yyyt = ['Instagram']; // ชื่อ button1
     const ddds = ['https://www.instagram.com/rroxen.n?igsh=MWVveXJvcmF4N28ydg==']; // ลิ้ง button1
 
-   const iooi = ['GOTCHI']; // ชื่อ button 2
-   const iiio = ['https://discord.gg/RtDjRGuppf']; // ลิ้ง button 2
+   const iooi = ['THUGZEN']; // ชื่อ button 2
+   const iiio = ['https://discord.gg/nightonstar']; // ลิ้ง button 2
    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
    const oooi = 
@@ -59,7 +59,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setURL('https://www.youtube.com/watch?v=yFg7_bjl2-k')
       .setState(`🍃 : ${global.wind} Km/h | 🌡 : ${global.temp} C°`)
       .setName(`RobShop`)
-      .setDetails(`Gotchi Community`)
+      .setDetails(`𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐭𝐡𝐮𝐠𝐳𝐞𝐧`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`（  ${getTime()} ） • （ ${moment().format('DD/MM/YYYY')} ）`)
